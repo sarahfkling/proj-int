@@ -1,0 +1,114 @@
+/*.conheca-nos{
+   /* background-color: red;
+    background-image: url('../img/fundo.png'); /* Substitua pelo caminho da sua imagem */
+/*  background-size: cover; /* Faz com que a imagem cubra toda a tela */
+/* background-repeat: no-repeat; /* Evita repetição da imagem */
+/*background-position: center; /* Centraliza a imagem */
+
+/*}
+*/
+
+/*body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+    */
+
+
+ .teste{
+   
+    background-image: url('../img/fundo.png');
+    /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    /* Faz com que a imagem cubra toda a tela */
+    background-repeat: no-repeat;
+    /* Evita repetição da imagem */
+    background-position: center;
+    /* Centraliza a imagem */
+
+width: 100%;
+height: 800px;
+
+
+/*//margin-bottom: 20px;*/
+
+ }
+
+
+
+.inov-mark-section {
+    text-align: center;
+    color: #fff;
+    padding: 50px 20px;
+    background-image: url('../img/fundo.png');
+    /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    /* Faz com que a imagem cubra toda a tela */
+    background-repeat: no-repeat;
+    /* Evita repetição da imagem */
+    background-position: center;
+    /* Centraliza a imagem */
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #ff914d;
+    margin-bottom: 20px;
+}
+
+.header .logo {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    border-radius: 20px;
+    /*
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 50px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+
+*/
+
+    background-color: rgba(255, 255, 255, 0.596); /* Cor branca com 80% de opacidade */
+   
+    color: #333;
+    
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    backdrop-filter: blur(10px); /* Desfoque do fundo, se desejar um efeito mais suave */
+
+
+
+
+
+}
+
+.card .icon {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #002f7f;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
